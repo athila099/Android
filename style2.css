@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+    font-family: android;
+    src: url(font/idroid.otf);
+}
+
+p {
+  text-align: justify;
+  margin: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: #b3f0c2;
+}
+
+.para {
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-family: 'android';
+}
+
+.principal {
+  background: linear-gradient(to bottom, #009933, #006633);
+  color: white;
+  text-shadow: 1px 2px black;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.principal h1 {
+  margin: 0;
+  font-size: 1.8em;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+}
+
+.principal p {
+  margin-top: 8px;
+  font-size: 0.9em;
+}
+
+nav {
+  background-color: #006633;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #97eead94;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+main {
+  background-color: white;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+article h2 {
+  color: #006633;
+  border-bottom: 2px solid #00cc66;
+  padding-bottom: 5px;
+}
+
+article h3 {
+  color: #009933;
+  margin-top: 25px;
+}
+
+.img-centered {
+  display: block;
+  margin: 15px auto;
+  max-width: 100%;
+}
+
+.portrait {
+  width: 300px;
+  border-radius: 6px;
+}
+
+.small-img {
+  width: 120px;
+}
+
+.video-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #006633;
+  color: white;
+  padding: 15px 0;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+footer p {
+  text-align: center;
+}
+/*aside é uma tag semântica usada para representar conteúdo secundário, complementar ou lateral da página.*/
